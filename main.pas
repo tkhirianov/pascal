@@ -2,10 +2,11 @@ program MyProg;
 
 var
   x, y:Integer;
+  
 begin
   Readln(x);
   y := 2;
-  while x>1 do
+  while x > 0 do
   begin
     while x mod y = 0 do
     begin
