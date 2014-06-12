@@ -1,7 +1,7 @@
 program MyProg;
 
 var
-  x, y:Integer;
+  x, y:Integer; //подумай как лучше назвать эти переменные
   
 begin
   Readln(x);
@@ -10,7 +10,7 @@ begin
   begin
     while x mod y = 0 do
     begin
-      x := x div y;
+      x := x div y; //найди ошибку в этой строке
       Writeln(y);
     end;
   end;
